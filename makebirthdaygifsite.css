@@ -1,0 +1,75 @@
+body {
+    font-family: "Happy Monkey";
+    text-align: center;
+    background: #EFB0C9;
+    color: whitesmoke;
+}
+#image {
+    width: 250px;
+    border-radius: 50%;
+    border: solid 6px #a2d2ff
+}
+h1, h2{
+    text-shadow: 0px 0px 5px black;
+}
+h4{ 
+    text-shadow: 0px 0px 1px black;
+}
+#bday-age{
+    background: purple;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0; 
+}
+#bday-date{
+    background: purple;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+.header{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gift-title1{
+    margin: 50px 0 0 0 ;
+}
+.gift-hint{
+    margin: 0 0 10px 0 ;
+}
+#gift-img1{
+    background-image: url(images/giftbox.avif);
+    background-size: cover;
+    margin: 0px auto; /* Căn giữa ngang và tạo khoảng cách trên dưới */
+    width: 450px;
+    height: 400px; /* Để height tự động theo tỉ lệ ảnh */
+    border: 5px solid black;
+    border-radius: 10px;
+}
+#gift-img1:hover{
+    background-image: url(images/johnnysilverhand.gif);
+    background-image: cover;
+    background-position: center ;
+}
+#gift-title2{
+    margin: 50px 0 0 0;
+}
+
+#gift-img2{
+    background-image: url(images/giftbox.avif); 
+    background-size: cover;
+    margin: 0 auto;
+    width: 450px;
+    height: 400px;
+    border: 5px solid black;
+    border-radius: 10px; 
+}
+
+#gift-img2:hover{
+    background-image: url(images/waving.gif);
+    background-size: cover;
+    background-position: center;
+}
